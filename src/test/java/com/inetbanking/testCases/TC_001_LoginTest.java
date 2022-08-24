@@ -19,7 +19,7 @@ public class TC_001_LoginTest extends BaseClass {
 		lp.setPassword(password);
 	//	log.info("Entered password");
 		lp.clickSubmit();
-		if(driver.getTitle().equals(" GTPL Bank Manager HomePage")) {
+		if(driver.getTitle().equals("GTPL Bank Manager HomePage")) {
 
 			Assert.assertTrue(true);
 			//log.info("login test passed");
